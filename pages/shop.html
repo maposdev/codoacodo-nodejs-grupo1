@@ -7,6 +7,31 @@
     <title>Shop</title>
 </head>
 <body>
-    
+        <aside> <!--inicio del buscador-->
+        <form action="buscar" method="get">
+            <label for="Item">BUSCAR</label>
+            <input type="search" placeholder="Item o categoria" name="search" id="Item">
+            <br><br>
+            <label for="orden">ORDENAR POR</label>
+            <select name="ord" id="orden">
+                <option value="mayoramenor">Mayor a menor</option>
+                <option value="menoramayor">Menor a menor</option>
+            </select>
+            <br><br>
+            <h4>PRECIO</h4>
+            <label for="precio">min</label>
+            <input type="number" placeholder="0" id="precio">
+            <h6>-</h6>
+            <label for="precio">max</label>
+            <input type="number" placeholder="0" id="precio">
+            <br><br>
+            <label for="Filtrar">FILTRAR</label>
+            <input type="checkbox" name="filtrar" id="Filtrar">NUEVOS
+            <input type="checkbox" name="filtrar" id="Filtrar">OFERTAS
+            <input type="checkbox" name="filtrar" id="Filtrar">EDICIÓN ESPECIAL
+            <input type="checkbox" name="filtrar" id="Filtrar">FAVORITOS
+
+        </form> <!--fin del buscador-->
+    </aside>
 </body>
 </html>
