@@ -1,5 +1,37 @@
 @import url('./style.css');
 
+.border{
+  border: 20px solid black !important;
+}
+
+.header{
+  font-size: 1.5rem;
+  background: var(--color-tertiary);
+}
+
+.header-logo a img{
+  padding-left: 4rem;
+  width: 20rem;
+  height: 5rem;
+}
+
+.header-navbar{
+  display: flex;
+  justify-content: end;
+  padding-right: 5rem;
+}
+
+.header-navbar a{
+  color: var(--color-light);
+  margin: 0 0.25em;
+}
+
+.header-banner img{
+  height: 30vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
 .main-item {
   align-items: center;
   display: flex;
@@ -7,6 +39,7 @@
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 1.5rem;
+  padding: 1rem;
 }
 
 .main-item__content {
@@ -37,4 +70,3 @@
   margin-top: 1em;
   padding: 1em 2em;
 }
-

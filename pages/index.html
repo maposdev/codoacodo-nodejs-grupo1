@@ -1,51 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>FunkoShop</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/index.css">
-  <title>FunkoShop</title>
-</head>
-
-<body>
-  <ul>
-    <li class="main-item">
-      <section class="main-item__content">
-        <h2 class="main-item__title">STAR WARS & THE MANDALORIAN</h2>
-        <p class="main-item__paragraph">Disfruta de una saga que sigue agregando personajes a su colección.</p>
-        <button class="main-item__button">VER COLECCIÓN</button>
-      </section>
-      <figure class="main-item__container-img">
-        <img class="main-item__img" src="../img/star-wars/baby-yoda-1.webp" alt="Funko Yoda Bebé (Star Wars)">
-      </figure>
-    </li>
-    <li class="main-item">
-      <section>
+  <body>
+    <header class="header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="header-logo">
+            <a class="navbar-brand" href="#">
+              <img src="../img/branding/logo_light_horizontal.svg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top" />
+            </a>
+          </div>
+          <div class="collapse navbar-collapse header-navbar" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  SHOP
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/contacto.html">CONTACTO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">LOGIN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/pages/carrito.html"><img class="la" src="../img/icons/cart-icon.svg"></img></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="header-banner">
+        <img src="../img/funkos-banner.webp" alt="Banner Funkos">
+      </div>
+    </header>
+    <ul>
+      <li class="main-item">
+        <section class="main-item__content">
+          <h2 class="main-item__title">STAR WARS & THE MANDALORIAN</h2>
+          <p class="main-item__paragraph">Disfruta de una saga que sigue agregando personajes a su colección.</p>
+          <button class="main-item__button">VER COLECCIÓN</button>
+        </section>
         <figure class="main-item__container-img">
-          <img class="main-item__img" src="../img/pokemon/vulpix-1.webp" alt="Funko Vulpix (Pokemón)">
+          <img class="main-item__img" src="../img/star-wars/baby-yoda-1.webp" alt="Funko Yoda Bebé (Star Wars)">
         </figure>
-      </section>
-      <section class="main-item__content">
-        <h2 class="main-item__title">POKEMON INDIGO</h2>
-        <p class="main-item__paragraph">Atrapa todos los que puedas y disfruta de una colección llena de amigos.</p>
-        <button class="main-item__button">VER COLECCIÓN</button>
-      </section>
-    </li>
-    <li class="main-item">
-      <section class="main-item__content">
-        <h2 class="main-item__title">HARRY POTTER</h2>
-        <p class="main-item__paragraph">Revive los recuerdos de una saga llena de magia y encanto.</p>
-        <button class="main-item__button">VER COLECCIÓN</button>
-      </section>
-      <section>
-        <figure class="main-item__container-img">
-          <img class="main-item__img" src="../img/harry-potter/snape-patronus-1.webp" alt="Funko Snape Patronus (Harry Potter)">
-        </figure>
-      </section>
-    </li>
-  </ul>
-</body>
+      </li>
+      <li class="main-item">
+        <section>
+          <figure class="main-item__container-img">
+            <img class="main-item__img" src="../img/pokemon/vulpix-1.webp" alt="Funko Vulpix (Pokemón)">
+          </figure>
+        </section>
+        <section class="main-item__content">
+          <h2 class="main-item__title">POKEMON INDIGO</h2>
+          <p class="main-item__paragraph">Atrapa todos los que puedas y disfruta de una colección llena de amigos.</p>
+          <button class="main-item__button">VER COLECCIÓN</button>
+        </section>
+      </li>
+      <li class="main-item">
+        <section class="main-item__content">
+          <h2 class="main-item__title">HARRY POTTER</h2>
+          <p class="main-item__paragraph">Revive los recuerdos de una saga llena de magia y encanto.</p>
+          <button class="main-item__button">VER COLECCIÓN</button>
+        </section>
+        <section>
+          <figure class="main-item__container-img">
+            <img class="main-item__img" src="../img/harry-potter/snape-patronus-1.webp" alt="Funko Snape Patronus (Harry Potter)">
+          </figure>
+        </section>
+      </li>
+    </ul>
+  </body>
 
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </html>
